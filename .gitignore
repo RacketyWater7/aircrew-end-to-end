@@ -1,0 +1,17 @@
+node_modules
+
+dist
+
+*.env
+.env
+
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+@rerun.txt
