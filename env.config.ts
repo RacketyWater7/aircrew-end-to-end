@@ -7,6 +7,6 @@ export const getEnv = () => {
       path: `.env.${process.env.ENV}`,
     });
   } else {
-    console.error("No ENV provided");
+    console.log("No ENV provided");
   }
 };

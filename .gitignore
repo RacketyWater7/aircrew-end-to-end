@@ -4,12 +4,12 @@ dist
 
 *.env
 .env
+.env.development
+.env.test
+.env.production
+.env.staging
 
-
-# Elastic Beanstalk Files
-.elasticbeanstalk/*
-!.elasticbeanstalk/*.cfg.yml
-!.elasticbeanstalk/*.global.yml
+# Logs
 /test-results/
 /playwright-report/
 /blob-report/

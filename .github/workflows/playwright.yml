@@ -8,6 +8,12 @@ jobs:
   test:
     timeout-minutes: 60
     runs-on: ubuntu-latest
+
+    env:
+      ENV: development
+      MAIN_SITE_URL: https://fb.com
+      BROWSER: chromium
+      HEADLESS: true
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
